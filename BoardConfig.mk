@@ -17,6 +17,9 @@ TARGET_KERNEL_CONFIG := dipper_defconfig
 
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 
+# Fix RIL
+TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/dipper/BoardConfigVendor.mk
 
