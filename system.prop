@@ -1,0 +1,120 @@
+# System property for cabl
+ro.qualcomm.cabl=0
+# prop for amoled panel
+ro.display.type=oled
+persist.sys.disable_rescue=true
+# System property for AD
+ro.qcom.ad=1
+ro.qcom.ad.calib.data=/vendor/etc/sdr_config.cfg
+ro.qcom.ad.hdr.calib.data=/vendor/etc/hdr_config.cfg
+ro.qcom.ad.sensortype=2
+
+# Camera
+persist.camera.sat.fallback.dist=45
+persist.camera.sat.fallback.dist.d=5
+persist.camera.sat.fallback.luxindex=310
+persist.camera.sat.fallback.lux.d=520
+persist.vendor.camera.multicam.hwsync=TRUE
+persist.vendor.camera.multicam.fpsmatch=TRUE
+persist.vendor.camera.enableAdvanceFeatures=0x67
+persist.vendor.camera.multicam.framesync=1
+
+# Display features
+ro.displayfeature.histogram.enable=true
+ro.eyecare.brightness.threshold=3
+ro.eyecare.brightness.level=8
+ro.qcom.ad=1
+ro.qcom.ad.calib.data=/vendor/etc/sdr_config.cfg
+ro.qcom.ad.hdr.calib.data=/vendor/etc/hdr_config.cfg
+ro.qcom.ad.sensortype=2
+ro.qualcomm.cabl=0
+persist.sys.disable_rescue
+
+persist.radio.apm_sim_not_pwdn=1
+keyguard.no_require_sim=true
+ro.com.android.dataroaming=false
+ro.com.android.mobiledata=false
+ro.treble.enabled=true
+persist.vendor.radio.report_codec=1
+persist.vendor.radio.redir_party_num=1
+persist.radio.atfwd.start=true
+
+#Netflix custom property
+ro.netflix.bsp_rev=Q845-05000-1
+
+
+# system property for maximum number of HFP client connections
+bt.max.hfpclient.connections=1
+#system prop for Bluetooth SOC type
+qcom.bluetooth.soc=cherokee
+
+#system prop for wipower support
+ro.bluetooth.emb_wp_mode=false
+ro.bluetooth.wipower=false
+ro.qc.sdk.audio.ssr=false
+#persist.speaker.prot.enable=false
+qcom.hw.aac.encoder=true
+
+##fluencetype can be "fluence" or "fluencepro" or "none"
+ro.qc.sdk.audio.fluencetype=none
+persist.audio.fluence.voicecall=true
+persist.audio.fluence.voicerec=false
+persist.audio.fluence.speaker=true
+audio.offload.gapless.enabled=true
+use.voice.path.for.pcm.voip=true
+av.offload.enable=true
+audio.offload.buffer.size.kb=32
+tunnel.audio.encode = true
+persist.sys.wfd.virtual=0
+persist.debug.wfd.enable=1
+persist.rmnet.data.enable=true
+persist.data.wda.enable=true
+persist.data.df.dl_mode=5
+persist.data.df.ul_mode=5
+persist.data.df.agg.dl_pkt=10
+persist.data.df.agg.dl_size=4096
+persist.data.df.mux_count=8
+persist.data.df.iwlan_mux=9
+persist.data.df.dev_name=rmnet_usb0
+
+rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
+#rild.libargs=-d /dev/smd0
+persist.rild.nitz_plmn=
+persist.rild.nitz_long_ons_0=
+persist.rild.nitz_long_ons_1=
+persist.rild.nitz_long_ons_2=
+persist.rild.nitz_long_ons_3=
+persist.rild.nitz_short_ons_0=
+persist.rild.nitz_short_ons_1=
+persist.rild.nitz_short_ons_2=
+persist.rild.nitz_short_ons_3=
+ril.subscription.types=NV,RUIM
+DEVICE_PROVISIONED=1
+# Set network mode to (T/L/G/W/1X/EVDO, T/L/G/W/1X/EVDO) for 7+7 mode device on DSDS mode
+ro.telephony.default_network=22,22
+
+persist.radio.multisim.config=dsds
+ril.subscription.types=RUIM
+
+persist.sys.ssr.restart_level=ALL_ENABLE
+persist.sys.ssr.enable_ramdumps=1
+
+#IMS corresponding
+persist.radio.VT_HYBRID_ENABLE=1
+#iwaln vowifi corresponding
+persist.data.iwlan.enable=true
+
+#dpm
+persist.vendor.dpm.feature=1
+persist.vendor.dpm.nsrm.bkg.evt=3955
+
+# Report redirection call number
+persist.vendor.radio.redir_party_num=1
+
+#Enable manual network selection function and distinguish 2G/3G/4G
+persist.vendor.radio.rat_on=combine
+
+#For special cdma card sms issue
+persist.vendor.radio.force_on_dc=true
+
+persist.rcs.supported=0
