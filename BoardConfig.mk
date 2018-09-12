@@ -18,5 +18,7 @@ TARGET_OTA_ASSERT_DEVICE := dipper
 # Kernel
 TARGET_KERNEL_CONFIG := dipper_defconfig
 
+DISABLE_DEXPREOPT=true
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/dipper/BoardConfigVendor.mk
