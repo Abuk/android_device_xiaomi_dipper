@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-$(call inherit-product, device/xiaomi/havoc/device.mk)
+$(call inherit-product, device/xiaomi/dipper/device.mk)
 
 # Inherit some common Havoc stuff.
 $(call inherit-product, vendor/havoc/products/common.mk)
