@@ -172,4 +172,5 @@
          dim before the device goes to sleep.
     -->
     <fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
+
 </resources>
