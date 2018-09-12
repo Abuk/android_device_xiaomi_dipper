@@ -9,6 +9,9 @@
 
 DEVICE_PATH := device/xiaomi/dipper
 
+#Policy Stuff
+SELINUX_IGNORE_NEVERALLOWS := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := dipper
 
