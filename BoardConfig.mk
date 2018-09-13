@@ -18,7 +18,11 @@ TARGET_OTA_ASSERT_DEVICE := dipper
 # Kernel
 TARGET_KERNEL_CONFIG := dipper_defconfig
 
-DISABLE_DEXPREOPT=true
+WITH_DEXPREOPT := false
+# DONT_DEXPREOPT_PREBUILTS := true
+
+BOARD_CACHEIMAGE_PARTITION_SIZE := 253920
+BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/dipper/BoardConfigVendor.mk
