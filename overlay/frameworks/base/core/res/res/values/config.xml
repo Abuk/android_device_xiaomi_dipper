@@ -172,4 +172,10 @@
          dim before the device goes to sleep.
     -->
     <fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
+
+    <!-- Whether the always on display mode is available. -->
+	<bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+	
+	<!-- Whether the display blanks itself when transition from a doze to a non-doze state -->
+	<bool name="config_displayBlanksAfterDoze">true</bool>
 </resources>
