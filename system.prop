@@ -199,3 +199,6 @@ persist.vendor.radio.rat_on=combine
 persist.vendor.radio.force_on_dc=true
 
 persist.rcs.supported=0
+
+# AoD
+persist.debug.force_burn_in=true
