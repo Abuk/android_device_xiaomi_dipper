@@ -16,7 +16,7 @@ SELINUX_IGNORE_NEVERALLOWS := true
 TARGET_OTA_ASSERT_DEVICE := dipper
 
 # Kernel
-TARGET_KERNEL_CONFIG := dipper_defconfig
+TARGET_KERNEL_CONFIG := beryllium_defconfig
 
 WITH_DEXPREOPT := false
 # DONT_DEXPREOPT_PREBUILTS := true
